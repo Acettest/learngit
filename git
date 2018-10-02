@@ -20,3 +20,21 @@ download all the things in remote responsity to local responsity, but it will no
 
 git pull
 download something into your local responsity?
+
+git checkout -b <name>
+create a branck and switch to it.
+
+git branch
+watch all the branch
+
+git branch <name>
+create a branch
+
+git checkout <name>
+switch to a branch called name
+
+git merge <name>
+actually,if the name is the same as the branch you are in,the merge will not do anything.so when merge a branch,you should switch to a branch that is the main branch relative to the branch that will be merged.
+
+git branch -d <name> 
+delete a branch that is merged.if the branch is not be merged and you still wanna to delete it, use [git branch -D <name>]
