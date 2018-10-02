@@ -4,3 +4,10 @@ you can use git checkout -- filename to redo remove
 if git rm
 you should first git reset HEAD filename
 and then git checkout -- filename
+
+git reset HEAD filename
+git reset is that get something you need from git responsity
+when git commit or git rm or other commit command commit something to git responsity,the stage will be clean. so what you need to do is to pull something in local responsity to stage
+
+git checkout -- filename
+git checkout means you pull something in git stage to working area. this means you must be sure that the content in stage is in need.
