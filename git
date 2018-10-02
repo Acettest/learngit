@@ -1,0 +1,6 @@
+how to redo files remove
+first if just rm
+you can use git checkout -- filename to redo remove
+if git rm
+you should first git reset HEAD filename
+and then git checkout -- filename
