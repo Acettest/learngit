@@ -11,3 +11,12 @@ when git commit or git rm or other commit command commit something to git respon
 
 git checkout -- filename
 git checkout means you pull something in git stage to working area. this means you must be sure that the content in stage is in need.
+
+git push
+push something in your local responsity to remote distribute responsity
+
+git clone
+download all the things in remote responsity to local responsity, but it will not cover something already in your working area.
+
+git pull
+download something into your local responsity?
