@@ -38,3 +38,13 @@ actually,if the name is the same as the branch you are in,the merge will not do 
 
 git branch -d <name> 
 delete a branch that is merged.if the branch is not be merged and you still wanna to delete it, use [git branch -D <name>]
+
+git remote
+when you wanna do some operation on remote responsity such as github or someother code website,you can use this to push local responsity to remote responsity.
+the command:
+git remote add origin remoteresponsityname
+
+git push
+push local responsity to remote responsity
+git push origin master
+
